@@ -1,0 +1,2682 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "footerMenu",
+        "type": "ContentType",
+        "createdAt": "2024-10-02T17:47:13.392Z",
+        "updatedAt": "2024-10-02T17:47:14.086Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:14.086Z",
+        "firstPublishedAt": "2024-10-02T17:47:14.086Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/content_types/footerMenu"
+      },
+      "displayField": "internalName",
+      "name": "🚈 Footer menu",
+      "description": "Navigation content type used for powering the Footer menu",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "twitterLink",
+          "name": "Twitter link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "facebookLink",
+          "name": "Facebook link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "linkedinLink",
+          "name": "Linkedin link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "instagramLink",
+          "name": "Instagram link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "componentHeroBanner",
+        "type": "ContentType",
+        "createdAt": "2024-10-02T17:47:13.425Z",
+        "updatedAt": "2024-10-02T17:47:14.104Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:14.104Z",
+        "firstPublishedAt": "2024-10-02T17:47:14.104Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/content_types/componentHeroBanner"
+      },
+      "displayField": "internalName",
+      "name": "💎 Hero banner component",
+      "description": "Full-width container for displaying images and snappy copy; can include an optional CTA",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "headline",
+          "name": "Headline",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "bodyText",
+          "name": "Body text",
+          "type": "RichText",
+          "localized": true,
+          "required": false,
+          "validations": [
+            {
+              "nodes": {
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "nt_mergetag"
+                    ],
+                    "message": null
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline"
+              ],
+              "message": "Only bold, italic, and underline marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "embedded-entry-inline"
+              ],
+              "message": "Nodes are not allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imageStyle",
+          "name": "Image style",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroSize",
+          "name": "Hero size",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "colorPalette",
+          "name": "Color palette",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "1. White (#FFFFFF)",
+                "2. White Smoke (#FCFCFC)",
+                "3. Light Gray (#F4F4F4)",
+                "4. Gray (#EAEAEA)",
+                "5. Steel Gray (#BBBBBB)",
+                "6. Dark Gray (#797979)",
+                "7. Black (#000000)"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "componentDuplex",
+        "type": "ContentType",
+        "createdAt": "2024-10-02T17:47:13.450Z",
+        "updatedAt": "2024-10-02T17:47:14.089Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:14.089Z",
+        "firstPublishedAt": "2024-10-02T17:47:14.089Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/content_types/componentDuplex"
+      },
+      "displayField": "internalName",
+      "name": "💎 Duplex component",
+      "description": "Full-width container for displaying side-by-side image and copy, includes multiple layout options",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "containerLayout",
+          "name": "Container layout",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "headline",
+          "name": "Headline",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "bodyText",
+          "name": "Body text",
+          "type": "RichText",
+          "localized": true,
+          "required": false,
+          "validations": [
+            {
+              "nodes": {
+                "entry-hyperlink": [
+                  {
+                    "linkContentType": [
+                      "page",
+                      "post"
+                    ]
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "nt_mergetag"
+                    ],
+                    "message": null
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline"
+              ],
+              "message": "Only bold, italic, and underline marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "ordered-list",
+                "unordered-list",
+                "blockquote",
+                "hyperlink",
+                "entry-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only ordered list, unordered list, quote, link to Url, and link to entry nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imageStyle",
+          "name": "Image style",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "colorPalette",
+          "name": "Color palette",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "1. White (#FFFFFF)",
+                "2. White Smoke (#FCFCFC)",
+                "3. Light Gray (#F4F4F4)",
+                "4. Gray (#EAEAEA)",
+                "5. Steel Gray (#BBBBBB)",
+                "6. Dark Gray (#797979)",
+                "7. Black (#000000)"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "page",
+        "type": "ContentType",
+        "createdAt": "2024-10-02T17:47:13.459Z",
+        "updatedAt": "2024-10-02T17:47:14.078Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:14.078Z",
+        "firstPublishedAt": "2024-10-02T17:47:14.078Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/content_types/page"
+      },
+      "displayField": "internalName",
+      "name": "📜 Landing page",
+      "description": "Container that enables editors to publish a page, define its slug, select & arrange its content",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "pageName",
+          "name": "Page name",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            },
+            {
+              "regexp": {
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "topSection",
+          "name": "Sections",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "componentDuplex",
+                  "componentHeroBanner",
+                  "componentQuote"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "componentQuote",
+        "type": "ContentType",
+        "createdAt": "2024-10-02T17:47:13.461Z",
+        "updatedAt": "2024-10-02T17:47:14.079Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:14.079Z",
+        "firstPublishedAt": "2024-10-02T17:47:14.079Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/content_types/componentQuote"
+      },
+      "displayField": "internalName",
+      "name": "💎 Quote component",
+      "description": "Full-width component for quotes, reviews and testimonials, includes multiple layout options",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "quote",
+          "name": "Quote",
+          "type": "RichText",
+          "localized": true,
+          "required": false,
+          "validations": [
+            {
+              "nodes": {
+                "embedded-entry-block": [
+                  {
+                    "size": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  },
+                  {
+                    "linkContentType": [
+                      "topicPerson"
+                    ]
+                  }
+                ],
+                "asset-hyperlink": [
+                  {
+                    "size": {
+                      "min": 0,
+                      "max": 1
+                    }
+                  }
+                ],
+                "embedded-entry-inline": [
+                  {
+                    "linkContentType": [
+                      "nt_mergetag"
+                    ],
+                    "message": null
+                  }
+                ]
+              }
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline"
+              ],
+              "message": "Only bold, italic, and underline marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only quote, block entry, asset, link to Url, link to entry, and link to asset nodes are allowed"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "quoteAlignment",
+          "name": "Quote alignment",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imagePosition",
+          "name": "Image position",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "colorPalette",
+          "name": "Color palette",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "in": [
+                "1. White (#FFFFFF)",
+                "2. White Smoke (#FCFCFC)",
+                "3. Light Gray (#F4F4F4)",
+                "4. Gray (#EAEAEA)",
+                "5. Steel Gray (#BBBBBB)",
+                "6. Dark Gray (#797979)",
+                "7. Black (#000000)"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "sioedqz4jhj9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-10-02T17:47:14.279Z",
+        "createdBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-10-02T17:47:15.072Z",
+        "updatedBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "footerMenu",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "twitterLink",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "facebookLink",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "linkedinLink",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "instagramLink",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "sioedqz4jhj9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-10-02T17:47:14.320Z",
+        "createdBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-10-02T17:47:15.106Z",
+        "updatedBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "componentHeroBanner",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "headline",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "bodyText",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageStyle",
+          "settings": {
+            "trueLabel": "Partial background",
+            "falseLabel": "Full background"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroSize",
+          "settings": {
+            "trueLabel": "Full screen",
+            "falseLabel": "Fixed height"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "colorPalette",
+          "settings": {
+            "helpText": "Leave empty for a default (White) color palette"
+          },
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "sioedqz4jhj9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-10-02T17:47:14.321Z",
+        "createdBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-10-02T17:47:15.074Z",
+        "updatedBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "componentDuplex",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "containerLayout",
+          "settings": {
+            "trueLabel": "Image on the left",
+            "falseLabel": "Image on the right"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "headline",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "bodyText",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageStyle",
+          "settings": {
+            "trueLabel": "Fixed height",
+            "falseLabel": "Full height"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "colorPalette",
+          "settings": {
+            "helpText": "By default the duplex container is rendered with white background"
+          },
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "sioedqz4jhj9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-10-02T17:47:14.273Z",
+        "createdBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-10-02T17:47:14.467Z",
+        "updatedBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "page",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "pageName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "trackingFieldId": "internalName"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "topSection",
+          "settings": {
+            "bulkEditing": false,
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": false
+          },
+          "widgetId": "entryCardsEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "sioedqz4jhj9",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-10-02T17:47:14.291Z",
+        "createdBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-10-02T17:47:15.084Z",
+        "updatedBy": {
+          "sys": {
+            "id": "31X72jU4rtUuF4UhU21vxh",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "componentQuote",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "internalName",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "quote",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "quoteAlignment",
+          "settings": {
+            "trueLabel": "Center-aligned",
+            "falseLabel": "Left-aligned"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imagePosition",
+          "settings": {
+            "trueLabel": "Left",
+            "falseLabel": "Right"
+          },
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "colorPalette",
+          "settings": {
+            "helpText": "Leave empty for a default (White) color palette"
+          },
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "6c9tUMxxamKB9R7S16ne1X",
+        "type": "Entry",
+        "createdAt": "2024-10-02T17:47:25.677Z",
+        "updatedAt": "2024-10-02T17:47:26.526Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:26.526Z",
+        "firstPublishedAt": "2024-10-02T17:47:26.526Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footerMenu"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/entries/6c9tUMxxamKB9R7S16ne1X"
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Footer"
+        },
+        "twitterLink": {
+          "en-US": "https://twitter.com/"
+        },
+        "facebookLink": {
+          "en-US": "https://facebook.com/"
+        },
+        "linkedinLink": {
+          "en-US": "https://linkedin.com/"
+        },
+        "instagramLink": {
+          "en-US": "https://instagram.com/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "2fh7DboJhjWwcRmWfZnC5R",
+        "type": "Entry",
+        "createdAt": "2024-10-02T17:47:25.693Z",
+        "updatedAt": "2024-10-02T17:47:26.535Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:26.535Z",
+        "firstPublishedAt": "2024-10-02T17:47:26.535Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "componentQuote"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/entries/2fh7DboJhjWwcRmWfZnC5R"
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Rich testimonial"
+        },
+        "quote": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "I can't recommend Coin enough. If you’re tired of having to deal with unfriendly bank staff, long lines and ungodly opening hours, this is the bank for you.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "blockquote"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "—  ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Megan Trejo",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", Madrid, Spain",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "quoteAlignment": {
+          "en-US": false
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3JECogfmlqLlXY93QJ2t2F"
+            }
+          }
+        },
+        "imagePosition": {
+          "en-US": true
+        },
+        "colorPalette": {
+          "en-US": "1. White (#FFFFFF)"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "54oaiSfiKIi2PQDm3ZPDf3",
+        "type": "Entry",
+        "createdAt": "2024-10-02T17:47:25.693Z",
+        "updatedAt": "2024-10-02T17:47:26.543Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:26.543Z",
+        "firstPublishedAt": "2024-10-02T17:47:26.543Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "componentHeroBanner"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/entries/54oaiSfiKIi2PQDm3ZPDf3"
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Modern banking hero"
+        },
+        "headline": {
+          "en-US": "We wanted banking to be simple. So we rebuilt it from the ground up."
+        },
+        "bodyText": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Coin cards offer great rates, personalized services, and exclusive perks helping you manage your money with confidence.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "gJArMceFvS7Jd3pjvVfdO"
+            }
+          }
+        },
+        "imageStyle": {
+          "en-US": false
+        },
+        "heroSize": {
+          "en-US": true
+        },
+        "colorPalette": {
+          "en-US": "2. White Smoke (#FCFCFC)"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "3t7Iub6Arm23Cn7wWkIJTd",
+        "type": "Entry",
+        "createdAt": "2024-10-02T17:47:26.151Z",
+        "updatedAt": "2024-10-02T17:47:28.099Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:28.099Z",
+        "firstPublishedAt": "2024-10-02T17:47:28.099Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "page"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/entries/3t7Iub6Arm23Cn7wWkIJTd"
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Homepage"
+        },
+        "pageName": {
+          "en-US": "The card you always wanted"
+        },
+        "slug": {
+          "en-US": "home"
+        },
+        "topSection": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "54oaiSfiKIi2PQDm3ZPDf3"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5hOYnlXbV9FFDfe1qwtNio"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "350Vic01qnkh7C0IxFeVCD"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2fh7DboJhjWwcRmWfZnC5R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "350Vic01qnkh7C0IxFeVCD",
+        "type": "Entry",
+        "createdAt": "2024-10-02T17:47:26.179Z",
+        "updatedAt": "2024-10-02T17:47:28.077Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:28.077Z",
+        "firstPublishedAt": "2024-10-02T17:47:28.077Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "componentDuplex"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/entries/350Vic01qnkh7C0IxFeVCD"
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "General / cashbacks"
+        },
+        "containerLayout": {
+          "en-US": false
+        },
+        "headline": {
+          "en-US": "Earn cash back for every purchase"
+        },
+        "bodyText": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Get up to 3% of your cash back whenever you use the Coin card to pay for the purchases. There is no limit on rewards you can claim and no spending minimum to hit. Cash back rewards do not expire as long as your account is active. Certain restrictions apply.*\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7uYHH1WkskqMXwCiWLgZof"
+            }
+          }
+        },
+        "imageStyle": {
+          "en-US": true
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "5hOYnlXbV9FFDfe1qwtNio",
+        "type": "Entry",
+        "createdAt": "2024-10-02T17:47:26.186Z",
+        "updatedAt": "2024-10-02T17:47:28.085Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-10-02T17:47:28.085Z",
+        "firstPublishedAt": "2024-10-02T17:47:28.085Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "componentDuplex"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/entries/5hOYnlXbV9FFDfe1qwtNio"
+      },
+      "fields": {
+        "internalName": {
+          "en-US": "Banking for travelers"
+        },
+        "containerLayout": {
+          "en-US": true
+        },
+        "headline": {
+          "en-US": "Discover a whole new world of travel"
+        },
+        "bodyText": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "With free ATM withdrawals abroad and 24/7 customer service, Coin makes traveling the easiest it’s ever been. Upgrade your account and join the jet-set crowd.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "55W3agcarLzsYSwJq6VTZ3"
+            }
+          }
+        },
+        "imageStyle": {
+          "en-US": true
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "3JECogfmlqLlXY93QJ2t2F",
+        "type": "Asset",
+        "createdAt": "2024-10-02T17:47:16.250Z",
+        "updatedAt": "2024-10-02T17:47:18.429Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-10-02T17:47:18.429Z",
+        "firstPublishedAt": "2024-10-02T17:47:18.429Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/assets/3JECogfmlqLlXY93QJ2t2F"
+      },
+      "fields": {
+        "title": {
+          "en-US": "A woman wearing a blue shirt, blue jean and white sneakers walking in an office holding a laptop"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/sioedqz4jhj9/3JECogfmlqLlXY93QJ2t2F/e5f807de811fe49886ae19d78a0fb93c/daria-pimkina-tYaccl19A3Q-unsplash.jpg",
+            "details": {
+              "size": 637204,
+              "image": {
+                "width": 2667,
+                "height": 4000
+              }
+            },
+            "fileName": "daria-pimkina-tYaccl19A3Q-unsplash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "gJArMceFvS7Jd3pjvVfdO",
+        "type": "Asset",
+        "createdAt": "2024-10-02T17:47:16.262Z",
+        "updatedAt": "2024-10-02T17:47:17.360Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-10-02T17:47:17.360Z",
+        "firstPublishedAt": "2024-10-02T17:47:17.360Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/assets/gJArMceFvS7Jd3pjvVfdO"
+      },
+      "fields": {
+        "title": {
+          "en-US": "A girl smiling, wearing a white t shirt and holding a phone"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/sioedqz4jhj9/gJArMceFvS7Jd3pjvVfdO/c04cac7a0c85b3f33a3ba253bf6f2054/AdobeStockoriginal_507755457.jpg",
+            "details": {
+              "size": 1573885,
+              "image": {
+                "width": 8192,
+                "height": 5464
+              }
+            },
+            "fileName": "AdobeStockoriginal_507755457.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "55W3agcarLzsYSwJq6VTZ3",
+        "type": "Asset",
+        "createdAt": "2024-10-02T17:47:16.264Z",
+        "updatedAt": "2024-10-02T17:47:25.258Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-10-02T17:47:25.258Z",
+        "firstPublishedAt": "2024-10-02T17:47:25.258Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/assets/55W3agcarLzsYSwJq6VTZ3"
+      },
+      "fields": {
+        "title": {
+          "en-US": "A packed travel suitcase"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/sioedqz4jhj9/55W3agcarLzsYSwJq6VTZ3/fb0adcdb5f9631f152837faebc71a09c/arnel-hasanovic-Nl-SXO4FAHw-unsplash__1_.jpg",
+            "details": {
+              "size": 1685492,
+              "image": {
+                "width": 7203,
+                "height": 4807
+              }
+            },
+            "fileName": "arnel-hasanovic-Nl-SXO4FAHw-unsplash (1).jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "id": "7uYHH1WkskqMXwCiWLgZof",
+        "type": "Asset",
+        "createdAt": "2024-10-02T17:47:16.269Z",
+        "updatedAt": "2024-10-02T17:47:20.121Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-10-02T17:47:20.121Z",
+        "firstPublishedAt": "2024-10-02T17:47:20.121Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/sioedqz4jhj9/environments/master/assets/7uYHH1WkskqMXwCiWLgZof"
+      },
+      "fields": {
+        "title": {
+          "en-US": "A hand with yellow painted nails holding a clothing tag that says 50% off"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/sioedqz4jhj9/7uYHH1WkskqMXwCiWLgZof/8df935da24e0111dc2ce5d5e77ccd3bd/artem-beliaikin-kTd2PvtqE_o-unsplash.jpg",
+            "details": {
+              "size": 1075600,
+              "image": {
+                "width": 6000,
+                "height": 4000
+              }
+            },
+            "fileName": "artem-beliaikin-kTd2PvtqE_o-unsplash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "366RjowQG6m26HAqSF7uTe",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "13e1fe58-6f89-4688-b3bf-09bc4079797a"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "createdAt": "2024-10-02T15:46:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedAt": "2024-10-02T15:46:22Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Author",
+      "description": "Allows editing of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "36qsdb7zApDuqPy67NJbLq",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "createdAt": "2024-10-02T15:46:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedAt": "2024-10-02T15:46:22Z"
+      }
+    },
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "36qQuZFaGfd70hqmovPQdy",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "createdAt": "2024-10-02T15:46:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedAt": "2024-10-02T15:46:22Z"
+      }
+    },
+    {
+      "name": "Translator",
+      "description": "Allows editing of localized fields in the specified language",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "36rbQ6uJopCfvbisZtVglO",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "sioedqz4jhj9"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "createdAt": "2024-10-02T15:46:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "31X72jU4rtUuF4UhU21vxh"
+          }
+        },
+        "updatedAt": "2024-10-02T15:46:22Z"
+      }
+    }
+  ]
+}
